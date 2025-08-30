@@ -1,14 +1,10 @@
 {
-  "name": "nodejs-app",
+  "name": "roblox-openai-backend",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "app.js",
-  "author": "alphasec",
-  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
   "dependencies": {
-    "express": "^4.19.2"
-  },
-  "scripts": {
-    "start": "node app.js"
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
   }
 }
